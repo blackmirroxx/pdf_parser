@@ -1,0 +1,8 @@
+[package]
+name = "pdf_parser"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+lopdf = { version = "0.30.0", features = ["pom", "pom_parser"] }
+
